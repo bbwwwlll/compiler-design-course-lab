@@ -1,0 +1,15 @@
+{
+  _x = 0;
+  abc123 = 42;
+  y = _x + abc123 - 5 * 2 / 1;
+
+  if (y == 42) { z = 1; }
+  if (y != 42) { z = 2; }
+  if (y <= 100) { z = 4; }
+  if (y >= 10)  { z = 6; }
+
+  while (z != 0) z = z - 1;
+
+  /* block comment should be skipped */
+  t = (3 + 4) * (2 - 1);
+}
